@@ -41,20 +41,6 @@ xml
 <key>NSPhotoLibraryUsageDescription</key>
 <string>Your app needs access to your photos.</string>
 
-Folder Structure
-
-lib/
- ├── models/
- │    ├── task.dart           # Task model
- │    └── task_data.dart      # Task data provider (state management)
- ├── screens/
- │    ├── add_task_screen.dart    # Screen for adding tasks
- │    ├── edit_task_screen.dart   # Screen for editing tasks
- │    ├── task_details_screen.dart # Task details view
- │    └── task_screen.dart        # Main screen listing all tasks
- ├── widgets/
- │    ├── task_tile.dart        # Widget for individual task items
- └── main.dart               # Main entry point of the app
 
 Dependencies
 
